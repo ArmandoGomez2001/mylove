@@ -1,0 +1,105 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f3e5f5; /* Fondo lila suave */
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+    color: #6a0dad; /* Color morado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.5em;
+    color: #6a0dad; /* Color morado */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-text {
+    background-color: #6a0dad; /* Color morado */
+    color: white;
+    padding: 15px;
+    margin: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 500;
+}
+
+.animation-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tulip {
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+
+.stem {
+    width: 10px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+}
+
+.petal {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    background: transparent;
+}
+
+.petal1 {
+    border-width: 0 50px 60px 50px;
+    border-color: transparent transparent #6a0dad transparent;
+    top: 30px;
+    left: 0;
+}
+
+.petal2 {
+    border-width: 0 35px 45px 35px;
+    border-color: transparent transparent #6a0dad transparent;
+    top: 60px;
+    left: 15px;
+}
+
+.petal3 {
+    border-width: 0 20px 30px 20px;
+    border-color: transparent transparent #6a0dad transparent;
+    top: 90px;
+    left: 30px;
+}
+
+.petal4 {
+    border-width: 0 35px 45px 35px;
+    border-color: transparent transparent #6a0dad transparent;
+    top: 60px;
+    right: 15px;
+}
+
+.petal5 {
+    border-width: 0 20px 30px 20px;
+    border-color: transparent transparent #6a0dad transparent;
+    top: 9
