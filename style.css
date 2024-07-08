@@ -103,3 +103,24 @@ p {
     border-width: 0 20px 30px 20px;
     border-color: transparent transparent #6a0dad transparent;
     top: 9
+}
+
+.custom-link {
+    display: block;
+    text-align: center;
+    background: linear-gradient(45deg, #9c2fdb, #9c2fdb);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.custom-link:hover {
+    background: linear-gradient(45deg, #9c2fdb, #9c2fdb);
+    transform: scale(1.1);
+    text-decoration: none;
+    color: white;
+}
+.custom-link:active {
+    transform: scale(1.05);
+}

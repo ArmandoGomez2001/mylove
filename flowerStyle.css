@@ -140,7 +140,7 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #a7ffee;
+  background-color: #6a0dad;
   background-image: linear-gradient(to top, #6a0dad, #6a0dad);
   transform-origin: bottom center;
   opacity: 0.9;
@@ -202,7 +202,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #6a0dad);
+  background-image: linear-gradient(to top, rgba(199, 61, 241, 0.4), #6a0dad);
 }
 .flower__line__leaf--1 {
   transform: rotate(70deg) rotateY(30deg);
